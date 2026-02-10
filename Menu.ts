@@ -132,8 +132,8 @@ export function main() {
 export function sobre(): void {
     console.log("\n*****************************************************");
     console.log( colors.fg.magentastrong,"         PlayHouse                                ", colors.reset);
-    console.log("Projeto Desenvolvido por: Jhonatha Vinicius");
-    console.log("Jhonatha - generation@generation.org");
+    console.log("Projeto Desenvolvido por:" ,colors.fg.magentastrong,"Jhonatha Vinicius", colors.reset);
+    console.log("Jhonatha - jhonathavinicius21@gmail.com");
     console.log("github.com/bfr-jhon");
     console.log("*****************************************************");
 }
