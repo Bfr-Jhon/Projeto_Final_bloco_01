@@ -1,10 +1,23 @@
 
+import { Jogo } from "./src/model/Jogo";
+import { JogoDigital } from "./src/model/JogoDigital";
+import { JogoFisico } from "./src/model/JogoFisico";
 import { Input } from "./src/util/Input";
 
 
 export function main() {
 
     let opcao: number;
+
+    
+
+    const jogodigital: JogoDigital = new JogoDigital(2, "Counter-Strike 2", 1000, 1, 92.00, "Steam");
+    jogodigital.visualizar();
+
+
+    const jogofisico: JogoFisico = new JogoFisico(3, "War", 300, 2, 75.90, "Batalha Naval");
+    jogofisico.visualizar();
+
 
     while (true) {
 
