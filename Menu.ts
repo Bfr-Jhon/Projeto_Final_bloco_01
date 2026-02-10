@@ -64,7 +64,7 @@ export function main() {
         opcao = Input.questionInt("");
 
         if (opcao == 0) {
-            console.log("\nSteam Melhorada - Nao vendemos so jogos, vendemos Diversão!");
+            console.log(colors.fg.magentastrong,"\n PlayHouse",colors.reset,"- Nao vendemos so jogos, vendemos Historias!");
             sobre();
             process.exit(0);
         }
